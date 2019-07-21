@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fujitsu.MovieApp.MangoDB.Re
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fujitsu.MovieApp.RestAPI", "Fujitsu.MovieApp.RestAPI\Fujitsu.MovieApp.RestAPI.csproj", "{54AA1CF4-CBA4-4CE1-BD56-319B3625DCD1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fujitsu.MovieApp.Common", "Fujisu.MovieApp.Common\Fujitsu.MovieApp.Common.csproj", "{83315E0F-D348-44D0-A6C8-ABB257EE8578}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fujitsu.MovieApp.Common", "Fujitsu.MovieApp.Common\Fujitsu.MovieApp.Common.csproj", "{83315E0F-D348-44D0-A6C8-ABB257EE8578}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

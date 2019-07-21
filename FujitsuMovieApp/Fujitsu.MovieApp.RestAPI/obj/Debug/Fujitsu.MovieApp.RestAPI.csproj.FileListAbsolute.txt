@@ -95,3 +95,5 @@ C:\Users\Hassaan\source\repos\FujitsuMovieApp\FujitsuMovieApp\Fujitsu.MovieApp.R
 C:\Users\Hassaan\source\repos\FujitsuMovieApp\FujitsuMovieApp\Fujitsu.MovieApp.RestAPI\obj\Debug\Fujitsu.MovieApp.RestAPI.csproj.CopyComplete
 C:\Users\Hassaan\source\repos\FujitsuMovieApp\FujitsuMovieApp\Fujitsu.MovieApp.RestAPI\obj\Debug\Fujitsu.MovieApp.RestAPI.dll
 C:\Users\Hassaan\source\repos\FujitsuMovieApp\FujitsuMovieApp\Fujitsu.MovieApp.RestAPI\obj\Debug\Fujitsu.MovieApp.RestAPI.pdb
+C:\Users\Hassaan\source\repos\FujitsuMovieApp\FujitsuMovieApp\Fujitsu.MovieApp.RestAPI\bin\Fujisu.MovieApp.Common.dll
+C:\Users\Hassaan\source\repos\FujitsuMovieApp\FujitsuMovieApp\Fujitsu.MovieApp.RestAPI\bin\Fujisu.MovieApp.Common.pdb
