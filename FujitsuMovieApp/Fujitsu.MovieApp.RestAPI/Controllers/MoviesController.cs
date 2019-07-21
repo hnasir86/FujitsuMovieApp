@@ -11,16 +11,26 @@ namespace Fujitsu.MovieApp.RestAPI.Controllers
 {
     public class MoviesController : ApiController
     {
+        Movie[] movies = new Movie[] { new Movie() { Id = 1, Title = "Lion King" }, new Movie() { Id = 2, Title = "The Matrix" } };
+
         // GET: api/Movies
         public IEnumerable<Movie> Get()
         {
-            return new Movie[] { new Movie() { Id = 1,  Title = "Lion King" } , new Movie() { Id = 1, Title = "The Matrix" } };
+            return movies;
         }
 
         // GET: api/Movies/5
-        public Movie Get(int id)
+        public IHttpActionResult Get(int id)
         {
-            return new Movie() { Id = 1, Title = "The Matrix" };
+            if (id == 1)
+                return Ok(movies[0]);
+            else if (id == 2)
+                return Ok(movies[1]);
+
+            else
+            {
+                return NotFound();
+            }
         }
 
         // POST: api/Movies
@@ -38,6 +48,7 @@ namespace Fujitsu.MovieApp.RestAPI.Controllers
         // DELETE: api/Movies/5
         public void Delete(int id)
         {
+
         }
     }
 }
