@@ -1,9 +1,0 @@
-C:\Users\Hassaan\source\repos\FujitsuMovieApp\FujitsuMovieApp\Fujitsu.MovieApp.MangoDB.Repository\bin\Debug\netstandard2.0\Fujitsu.MovieApp.MangoDB.Repository.deps.json
-C:\Users\Hassaan\source\repos\FujitsuMovieApp\FujitsuMovieApp\Fujitsu.MovieApp.MangoDB.Repository\bin\Debug\netstandard2.0\Fujitsu.MovieApp.MangoDB.Repository.dll
-C:\Users\Hassaan\source\repos\FujitsuMovieApp\FujitsuMovieApp\Fujitsu.MovieApp.MangoDB.Repository\bin\Debug\netstandard2.0\Fujitsu.MovieApp.MangoDB.Repository.pdb
-C:\Users\Hassaan\source\repos\FujitsuMovieApp\FujitsuMovieApp\Fujitsu.MovieApp.MangoDB.Repository\obj\Debug\netstandard2.0\Fujitsu.MovieApp.MangoDB.Repository.csprojResolveAssemblyReference.cache
-C:\Users\Hassaan\source\repos\FujitsuMovieApp\FujitsuMovieApp\Fujitsu.MovieApp.MangoDB.Repository\obj\Debug\netstandard2.0\Fujitsu.MovieApp.MangoDB.Repository.csproj.CoreCompileInputs.cache
-C:\Users\Hassaan\source\repos\FujitsuMovieApp\FujitsuMovieApp\Fujitsu.MovieApp.MangoDB.Repository\obj\Debug\netstandard2.0\Fujitsu.MovieApp.MangoDB.Repository.AssemblyInfoInputs.cache
-C:\Users\Hassaan\source\repos\FujitsuMovieApp\FujitsuMovieApp\Fujitsu.MovieApp.MangoDB.Repository\obj\Debug\netstandard2.0\Fujitsu.MovieApp.MangoDB.Repository.AssemblyInfo.cs
-C:\Users\Hassaan\source\repos\FujitsuMovieApp\FujitsuMovieApp\Fujitsu.MovieApp.MangoDB.Repository\obj\Debug\netstandard2.0\Fujitsu.MovieApp.MangoDB.Repository.dll
-C:\Users\Hassaan\source\repos\FujitsuMovieApp\FujitsuMovieApp\Fujitsu.MovieApp.MangoDB.Repository\obj\Debug\netstandard2.0\Fujitsu.MovieApp.MangoDB.Repository.pdb

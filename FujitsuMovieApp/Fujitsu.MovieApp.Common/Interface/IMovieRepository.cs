@@ -6,7 +6,7 @@ namespace Fujitsu.MovieApp.Common.Interfaces
 {
     public interface IMovieRepository
     {
-        void Create(Movie movie);
+        int Create(Movie movie);
         Movie Retrieve(int id);
         void Update(Movie movie);
         void Delete(int id);
