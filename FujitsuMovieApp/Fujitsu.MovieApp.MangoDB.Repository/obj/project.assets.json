@@ -183,11 +183,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hassaan\\source\\repos\\FujitsuMovieApp\\FujitsuMovieApp\\Fujitsu.MovieApp.Repository\\Fujitsu.MovieApp.Repository.csproj",
-      "projectName": "Fujitsu.MovieApp.Repository",
-      "projectPath": "C:\\Users\\Hassaan\\source\\repos\\FujitsuMovieApp\\FujitsuMovieApp\\Fujitsu.MovieApp.Repository\\Fujitsu.MovieApp.Repository.csproj",
+      "projectUniqueName": "C:\\Users\\Hassaan\\source\\repos\\FujitsuMovieApp\\FujitsuMovieApp\\Fujitsu.MovieApp.MangoDB.Repository\\Fujitsu.MovieApp.MangoDB.Repository.csproj",
+      "projectName": "Fujitsu.MovieApp.MangoDB.Repository",
+      "projectPath": "C:\\Users\\Hassaan\\source\\repos\\FujitsuMovieApp\\FujitsuMovieApp\\Fujitsu.MovieApp.MangoDB.Repository\\Fujitsu.MovieApp.MangoDB.Repository.csproj",
       "packagesPath": "C:\\Users\\Hassaan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hassaan\\source\\repos\\FujitsuMovieApp\\FujitsuMovieApp\\Fujitsu.MovieApp.Repository\\obj\\",
+      "outputPath": "C:\\Users\\Hassaan\\source\\repos\\FujitsuMovieApp\\FujitsuMovieApp\\Fujitsu.MovieApp.MangoDB.Repository\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
