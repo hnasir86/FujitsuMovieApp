@@ -16,3 +16,15 @@ C:\Users\Hassaan\source\repos\FujitsuMovieApp\FujitsuMovieApp\Fujitsu.MovieApp.T
 C:\Users\Hassaan\source\repos\FujitsuMovieApp\FujitsuMovieApp\Fujitsu.MovieApp.Test\bin\Debug\Fujitsu.MovieApp.Repository.MangoDB.dll
 C:\Users\Hassaan\source\repos\FujitsuMovieApp\FujitsuMovieApp\Fujitsu.MovieApp.Test\bin\Debug\Fujisu.MovieApp.Common.pdb
 C:\Users\Hassaan\source\repos\FujitsuMovieApp\FujitsuMovieApp\Fujitsu.MovieApp.Test\bin\Debug\Fujitsu.MovieApp.Repository.MangoDB.pdb
+C:\Users\Hassaan\source\repos\FujitsuMovieApp\FujitsuMovieApp\Fujitsu.MovieApp.Test\bin\Debug\MongoDB.Driver.dll
+C:\Users\Hassaan\source\repos\FujitsuMovieApp\FujitsuMovieApp\Fujitsu.MovieApp.Test\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\Hassaan\source\repos\FujitsuMovieApp\FujitsuMovieApp\Fujitsu.MovieApp.Test\bin\Debug\MongoDB.Bson.dll
+C:\Users\Hassaan\source\repos\FujitsuMovieApp\FujitsuMovieApp\Fujitsu.MovieApp.Test\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Hassaan\source\repos\FujitsuMovieApp\FujitsuMovieApp\Fujitsu.MovieApp.Test\bin\Debug\DnsClient.dll
+C:\Users\Hassaan\source\repos\FujitsuMovieApp\FujitsuMovieApp\Fujitsu.MovieApp.Test\bin\Debug\System.Buffers.dll
+C:\Users\Hassaan\source\repos\FujitsuMovieApp\FujitsuMovieApp\Fujitsu.MovieApp.Test\bin\Debug\netstandard.dll
+C:\Users\Hassaan\source\repos\FujitsuMovieApp\FujitsuMovieApp\Fujitsu.MovieApp.Test\bin\Debug\MongoDB.Driver.xml
+C:\Users\Hassaan\source\repos\FujitsuMovieApp\FujitsuMovieApp\Fujitsu.MovieApp.Test\bin\Debug\MongoDB.Driver.Core.xml
+C:\Users\Hassaan\source\repos\FujitsuMovieApp\FujitsuMovieApp\Fujitsu.MovieApp.Test\bin\Debug\MongoDB.Bson.xml
+C:\Users\Hassaan\source\repos\FujitsuMovieApp\FujitsuMovieApp\Fujitsu.MovieApp.Test\bin\Debug\DnsClient.xml
+C:\Users\Hassaan\source\repos\FujitsuMovieApp\FujitsuMovieApp\Fujitsu.MovieApp.Test\bin\Debug\System.Buffers.xml
