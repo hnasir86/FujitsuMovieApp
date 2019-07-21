@@ -1,0 +1,14 @@
+C:\Users\Hassaan\source\repos\FujitsuMovieApp\FujitsuMovieApp\Fujitsu.MovieApp.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Hassaan\source\repos\FujitsuMovieApp\FujitsuMovieApp\Fujitsu.MovieApp.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Hassaan\source\repos\FujitsuMovieApp\FujitsuMovieApp\Fujitsu.MovieApp.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Hassaan\source\repos\FujitsuMovieApp\FujitsuMovieApp\Fujitsu.MovieApp.Test\bin\Debug\Fujitsu.MovieApp.Test.dll
+C:\Users\Hassaan\source\repos\FujitsuMovieApp\FujitsuMovieApp\Fujitsu.MovieApp.Test\bin\Debug\Fujitsu.MovieApp.Test.pdb
+C:\Users\Hassaan\source\repos\FujitsuMovieApp\FujitsuMovieApp\Fujitsu.MovieApp.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Hassaan\source\repos\FujitsuMovieApp\FujitsuMovieApp\Fujitsu.MovieApp.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Hassaan\source\repos\FujitsuMovieApp\FujitsuMovieApp\Fujitsu.MovieApp.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Hassaan\source\repos\FujitsuMovieApp\FujitsuMovieApp\Fujitsu.MovieApp.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Hassaan\source\repos\FujitsuMovieApp\FujitsuMovieApp\Fujitsu.MovieApp.Test\obj\Debug\Fujitsu.MovieApp.Test.csprojResolveAssemblyReference.cache
+C:\Users\Hassaan\source\repos\FujitsuMovieApp\FujitsuMovieApp\Fujitsu.MovieApp.Test\obj\Debug\Fujitsu.MovieApp.Test.csproj.CoreCompileInputs.cache
+C:\Users\Hassaan\source\repos\FujitsuMovieApp\FujitsuMovieApp\Fujitsu.MovieApp.Test\obj\Debug\Fujitsu.MovieApp.Test.csproj.CopyComplete
+C:\Users\Hassaan\source\repos\FujitsuMovieApp\FujitsuMovieApp\Fujitsu.MovieApp.Test\obj\Debug\Fujitsu.MovieApp.Test.dll
+C:\Users\Hassaan\source\repos\FujitsuMovieApp\FujitsuMovieApp\Fujitsu.MovieApp.Test\obj\Debug\Fujitsu.MovieApp.Test.pdb

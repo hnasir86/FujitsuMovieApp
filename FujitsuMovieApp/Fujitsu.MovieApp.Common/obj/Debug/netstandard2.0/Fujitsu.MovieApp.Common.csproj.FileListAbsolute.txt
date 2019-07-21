@@ -1,0 +1,9 @@
+C:\Users\Hassaan\source\repos\FujitsuMovieApp\FujitsuMovieApp\Fujitsu.MovieApp.Common\bin\Debug\netstandard2.0\Fujitsu.MovieApp.Common.deps.json
+C:\Users\Hassaan\source\repos\FujitsuMovieApp\FujitsuMovieApp\Fujitsu.MovieApp.Common\bin\Debug\netstandard2.0\Fujitsu.MovieApp.Common.dll
+C:\Users\Hassaan\source\repos\FujitsuMovieApp\FujitsuMovieApp\Fujitsu.MovieApp.Common\bin\Debug\netstandard2.0\Fujitsu.MovieApp.Common.pdb
+C:\Users\Hassaan\source\repos\FujitsuMovieApp\FujitsuMovieApp\Fujitsu.MovieApp.Common\obj\Debug\netstandard2.0\Fujitsu.MovieApp.Common.csprojResolveAssemblyReference.cache
+C:\Users\Hassaan\source\repos\FujitsuMovieApp\FujitsuMovieApp\Fujitsu.MovieApp.Common\obj\Debug\netstandard2.0\Fujitsu.MovieApp.Common.csproj.CoreCompileInputs.cache
+C:\Users\Hassaan\source\repos\FujitsuMovieApp\FujitsuMovieApp\Fujitsu.MovieApp.Common\obj\Debug\netstandard2.0\Fujitsu.MovieApp.Common.AssemblyInfoInputs.cache
+C:\Users\Hassaan\source\repos\FujitsuMovieApp\FujitsuMovieApp\Fujitsu.MovieApp.Common\obj\Debug\netstandard2.0\Fujitsu.MovieApp.Common.AssemblyInfo.cs
+C:\Users\Hassaan\source\repos\FujitsuMovieApp\FujitsuMovieApp\Fujitsu.MovieApp.Common\obj\Debug\netstandard2.0\Fujitsu.MovieApp.Common.dll
+C:\Users\Hassaan\source\repos\FujitsuMovieApp\FujitsuMovieApp\Fujitsu.MovieApp.Common\obj\Debug\netstandard2.0\Fujitsu.MovieApp.Common.pdb
