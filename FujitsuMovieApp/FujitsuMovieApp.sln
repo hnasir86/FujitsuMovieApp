@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fujitsu.MovieApp.RestAPI", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fujitsu.MovieApp.Common", "Fujitsu.MovieApp.Common\Fujitsu.MovieApp.Common.csproj", "{83315E0F-D348-44D0-A6C8-ABB257EE8578}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fujitsu.MovieApp.Repository.MangoDB", "Fujitsu.MovieApp.Repository.MangoDB\Fujitsu.MovieApp.Repository.MangoDB.csproj", "{669CCBE5-5719-405C-A21E-5FCD6C4D89A9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fujitsu.MovieApp.Repository.MangoDB", "Fujitsu.MovieApp.Repository.MangoDB\Fujitsu.MovieApp.Repository.MangoDB.csproj", "{C3894178-82AF-42C2-99A6-05F1A5AB8235}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +35,10 @@ Global
 		{83315E0F-D348-44D0-A6C8-ABB257EE8578}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83315E0F-D348-44D0-A6C8-ABB257EE8578}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83315E0F-D348-44D0-A6C8-ABB257EE8578}.Release|Any CPU.Build.0 = Release|Any CPU
-		{669CCBE5-5719-405C-A21E-5FCD6C4D89A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{669CCBE5-5719-405C-A21E-5FCD6C4D89A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{669CCBE5-5719-405C-A21E-5FCD6C4D89A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{669CCBE5-5719-405C-A21E-5FCD6C4D89A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3894178-82AF-42C2-99A6-05F1A5AB8235}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3894178-82AF-42C2-99A6-05F1A5AB8235}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3894178-82AF-42C2-99A6-05F1A5AB8235}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3894178-82AF-42C2-99A6-05F1A5AB8235}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

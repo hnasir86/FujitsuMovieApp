@@ -3,3 +3,4 @@ C:\Users\Hassaan\source\repos\FujitsuMovieApp\FujitsuMovieApp\Fujitsu.MovieApp.C
 C:\Users\Hassaan\source\repos\FujitsuMovieApp\FujitsuMovieApp\Fujitsu.MovieApp.Common\obj\Debug\Fujitsu.MovieApp.Common.csproj.CoreCompileInputs.cache
 C:\Users\Hassaan\source\repos\FujitsuMovieApp\FujitsuMovieApp\Fujitsu.MovieApp.Common\obj\Debug\Fujisu.MovieApp.Common.dll
 C:\Users\Hassaan\source\repos\FujitsuMovieApp\FujitsuMovieApp\Fujitsu.MovieApp.Common\obj\Debug\Fujisu.MovieApp.Common.pdb
+C:\Users\Hassaan\source\repos\FujitsuMovieApp\FujitsuMovieApp\Fujitsu.MovieApp.Common\obj\Debug\Fujitsu.MovieApp.Common.csprojResolveAssemblyReference.cache
