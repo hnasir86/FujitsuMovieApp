@@ -3,10 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Fujitsu.MovieApp.Common;
+using Fujitsu.MovieApp.Common.DomainModel;
 using Fujitsu.MovieApp.Common.Interfaces;
+
 using MongoDB.Bson;
+using MongoDB.Bson.Serialization;
+using MongoDB.Bson.Serialization.IdGenerators;
+using MongoDB.Bson.Serialization.Serializers;
 using MongoDB.Driver;
+using MongoDB.Driver.Linq;
+
 
 namespace Fujitsu.MovieApp.Repository.MangoDB
 {
@@ -15,38 +21,80 @@ namespace Fujitsu.MovieApp.Repository.MangoDB
         private MongoClient client;
         private IMongoDatabase db;
 
-        public MovieRepository()
+        public MovieRepository(string connectionString)
         {
-             client = new MongoClient("mongodb+srv://service:rSSCDZTIZzwPRsnEHGvY@cluster0-iv5oy.mongodb.net/movie?retryWrites=true");
-             db = client.GetDatabase("movie");
+            BsonClassMap.RegisterClassMap<Movie>(cm =>
+            {
+                cm.AutoMap();
+                cm.IdMemberMap.SetSerializer(new StringSerializer(BsonType.ObjectId));
+                cm.MapIdMember(c => c.id).SetIdGenerator(new StringObjectIdGenerator());
+            });
+
+            client = new MongoClient(connectionString);
+            db = client.GetDatabase("movie");
         }
 
-        public int Create(Movie movie)
+        public string Create(Movie movie)
         {
-            throw new NotImplementedException();
+            var movies = db.GetCollection<Movie>("movie");
+            movies.InsertOne(movie);
+
+            if (string.IsNullOrEmpty(movie.id))
+                throw new Exception("MongoDB create operation failed for title:" + movie.title);
+
+            return movie.id;
         }
 
-        public void Delete(int id)
+        public void Delete(string id)
         {
-            throw new NotImplementedException();
+            var movies = db.GetCollection<Movie>("movie");
+            var filter = Builders<Movie>.Filter.Eq(e => e.id, id);
+
+            var result = movies.DeleteOne(filter);
+
+            if (result.DeletedCount != 1)
+                throw new Exception("MongoDB delete operation failed for Id: " + id);
         }
 
-        public Movie Retrieve(int id)
+        public Movie Retrieve(string id)
         {
             Movie movie = null;
             var client = new MongoClient("mongodb+srv://service:rSSCDZTIZzwPRsnEHGvY@cluster0-iv5oy.mongodb.net/movie?retryWrites=true");
             var db = client.GetDatabase("movie");
+            var movies = db.GetCollection<Movie>("movie");
 
-            var collList = db.ListCollections().ToList();
-            var movies = db.GetCollection<BsonDocument>("movie");
-            var resultDoc = movies.Find(new BsonDocument()).ToList();
+            var query = from e in movies.AsQueryable()
+                        where e.id == id
+                        select e;
 
-            return movie;
+            var result = query.FirstOrDefault();
+
+            return result;
+        }
+
+        public IEnumerable<Movie> RetrieveAll()
+        {
+            Movie movie = null;
+            var client = new MongoClient("mongodb+srv://service:rSSCDZTIZzwPRsnEHGvY@cluster0-iv5oy.mongodb.net/movie?retryWrites=true");
+            var db = client.GetDatabase("movie");
+            var movies = db.GetCollection<Movie>("movie");
+            var result = movies.AsQueryable().AsEnumerable();
+            return result;
         }
 
         public void Update(Movie movie)
         {
-            throw new NotImplementedException();
+            var movies = db.GetCollection<Movie>("movie");
+            var filter = Builders<Movie>.Filter.Eq(e => e.id, movie.id);
+
+            var result = movies.ReplaceOne(filter, movie);
+
+            if (result.ModifiedCount != 1)
+                throw new Exception("MongoDB update operation failed for Id: " + movie.id);
         }
     }
+
+
+
+
 }

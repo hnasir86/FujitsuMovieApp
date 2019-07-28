@@ -1,14 +1,14 @@
-﻿using System;
+﻿using Fujitsu.MovieApp.Common.DomainModel;
 using System.Collections.Generic;
-using System.Text;
 
 namespace Fujitsu.MovieApp.Common.Interfaces
 {
     public interface IMovieRepository
     {
-        int Create(Movie movie);
-        Movie Retrieve(int id);
+        string Create(Movie movie);
+        Movie Retrieve(string id);
+        IEnumerable<Movie> RetrieveAll();
         void Update(Movie movie);
-        void Delete(int id);
+        void Delete(string id);
     }
 }
