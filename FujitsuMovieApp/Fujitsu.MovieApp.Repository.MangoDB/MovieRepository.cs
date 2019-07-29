@@ -23,12 +23,16 @@ namespace Fujitsu.MovieApp.Repository.MangoDB
 
         public MovieRepository(string connectionString)
         {
-            BsonClassMap.RegisterClassMap<Movie>(cm =>
+            if (!BsonClassMap.IsClassMapRegistered(typeof(Movie)))
             {
-                cm.AutoMap();
-                cm.IdMemberMap.SetSerializer(new StringSerializer(BsonType.ObjectId));
-                cm.MapIdMember(c => c.id).SetIdGenerator(new StringObjectIdGenerator());
-            });
+
+                BsonClassMap.RegisterClassMap<Movie>(cm =>
+                {
+                    cm.AutoMap();
+                    cm.IdMemberMap.SetSerializer(new StringSerializer(BsonType.ObjectId));
+                    cm.MapIdMember(c => c.id).SetIdGenerator(new StringObjectIdGenerator());
+                });
+            }
 
             client = new MongoClient(connectionString);
             db = client.GetDatabase("movie");
