@@ -6,6 +6,9 @@ using System.Web.Mvc;
 using Fujitsu.MovieApp.Repository.MangoDB;
 using Fujitsu.MovieApp.Common.Interfaces;
 using Fujitsu.MovieApp.Common.DomainModel;
+using System.Net;
+using System.IO;
+using System.Net.Http;
 
 namespace Fujitsu.MovieApp.Controllers
 {
@@ -118,6 +121,19 @@ namespace Fujitsu.MovieApp.Controllers
             {
                 //TODO Add logging
                 return View();
+            }
+        }
+
+        // GET: http://localhost:57304/movie/image?url=https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SY1000_CR0,0,675,1000_AL_.jpg%202009%20Edit%20|%20Details%20|%20Delete%20The%20life%20of%20David%20Gale%20Alan%20Parker%20Kevin%20Spacey%20https://m.media-amazon.com/images/M/MV5BMTAxMzU0NTgxNzZeQTJeQWpwZ15BbWU2MDQzNDkxNw@@._V1_UX182_CR0,0,182,268_AL_.jpg
+        public FileResult Image(string url)
+        {
+
+            using (HttpClient client = new HttpClient())
+            {
+                var response = client.GetAsync(url).Result;
+                var filetype = response.Content.Headers.ContentType.MediaType;
+                var imageBytes = response.Content.ReadAsByteArrayAsync().Result;
+                return File(imageBytes, filetype, url);
             }
         }
     }
